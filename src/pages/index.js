@@ -37,10 +37,10 @@ const IndexPage = () => (
 
             <div className={"col-6"}>
               <div className={"feature__content"}>
-                <h2>Create and Join Events</h2>
+                <h2>Scan and track</h2>
                 <p>
-                  Save your time and energy by letting HiStaff to manage your
-                  events (handle the colleague’s birthday, gathering, etc.)
+                  Einfach mit Mobilgerät QR Code scannen und per GPS Standort
+                  merken (BILD: Handy/GMaps Point/Isometrisch)
                 </p>
               </div>
             </div>
@@ -51,13 +51,12 @@ const IndexPage = () => (
           <div className={"row"}>
             <div className={"col-6"}>
               <div className={"feature__content"}>
-                <h2>Public Board</h2>
+                <h2>Management/Übersicht</h2>
                 <p>
-                  Let the staff write down on the board freely,
-                  <br />
-                  Joking with each other and writing cool content can make the
-                  workplace more diverse and attractive for employees.{" "}
+                  Übersicht über alle aktuellen Gestellstandorte und
+                  Verweildauer
                 </p>
+                <p>(BROWSER WEBANSICHT)</p>
               </div>
             </div>
 
@@ -79,51 +78,10 @@ const IndexPage = () => (
 
             <div className={"col-6"}>
               <div className={"feature__content"}>
-                <h2>Internal News</h2>
+                <h2>Integration über Schnittstelle</h2>
                 <p>
-                  Get rid of sending news by e-mail and its problems; post the
-                  news in an internal and attractive format via HiStaff instead.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className={"feature__item"}>
-          <div className={"row"}>
-            <div className={"col-6"}>
-              <div className={"feature__content"}>
-                <h2>Teams</h2>
-                <p>
-                  HiStaff let you add staff in specific teams and manage them
-                  easily.
-                </p>
-              </div>
-            </div>
-
-            <div className={"col-6 first"}>
-              <div className={"thumbnail"}>
-                <img alt={"Team"} src={thumbnailTeams} />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className={"feature__item"}>
-          <div className={"row"}>
-            <div className={"col-6 first"}>
-              <div className={"thumbnail"}>
-                <img alt={"Users"} src={thumbnailStaff} />
-              </div>
-            </div>
-
-            <div className={"col-6"}>
-              <div className={"feature__content"}>
-                <h2>Staff management</h2>
-                <p>
-                  Discard traditional ways to archive staff documents and
-                  information, and try new ways to store and archive them in
-                  HiStaff easily.
+                  Moderne API (Application programming interface) um in eigene
+                  System zu integrieren
                 </p>
               </div>
             </div>
